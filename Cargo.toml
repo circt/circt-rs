@@ -1,0 +1,16 @@
+[package]
+name = "circt-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+melior = { version = "0.13", features = ["llvm-trunk", "ods-dialects"], default-features = false }
+melior-macro = { version = "0.7", features = ["llvm-trunk"], default-features = false }
+tblgen = { version = "0.3.0", features = ["llvm-trunk"], default-features = false }
+mlir-sys = { version = "0.2", features = ["llvm-trunk"], default-features = false }
+
+[patch.crates-io]
+melior = { path = "external/melior/melior" }
+melior-macro = { path = "external/melior/macro" }
+tblgen = { path = "external/tblgen-rs" }
+mlir-sys = { path = "external/mlir-sys" }

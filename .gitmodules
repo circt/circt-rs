@@ -1,0 +1,15 @@
+[submodule "external/llvm-project"]
+	path = external/llvm-project
+	url = git@github.com:llvm/llvm-project
+[submodule "external/circt"]
+	path = external/circt
+	url = git@github.com:llvm/circt
+[submodule "external/melior"]
+	path = external/melior
+	url = git@github.com:raviqqe/melior.git
+[submodule "external/mlir-sys"]
+	path = external/mlir-sys
+	url = git@github.com:femtomc/mlir-sys
+[submodule "external/tblgen-rs"]
+	path = external/tblgen-rs
+	url = git@gitlab.com:Danacus/tblgen-rs.git
