@@ -1,4 +1,4 @@
 melior_macro::dialect! {
     name: "hw",
-    tablegen: "include \"circt/Dialect/HW/HW.td\""
+    table_gen: r#"include "circt/Dialect/HW/HW.td""#
 }

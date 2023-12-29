@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-melior = { version = "0.13", features = ["llvm-trunk", "ods-dialects"], default-features = false }
-melior-macro = { version = "0.7", features = ["llvm-trunk"], default-features = false }
+melior = { version = "0.15", features = ["llvm-trunk", "ods-dialects"], default-features = false }
+melior-macro = { version = "0.9", features = ["llvm-trunk"], default-features = false }
 tblgen = { version = "0.3.0", features = ["llvm-trunk"], default-features = false }
 mlir-sys = { version = "0.2", features = ["llvm-trunk"], default-features = false }
 
